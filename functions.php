@@ -12,13 +12,13 @@ add_filter('tc_category_archive_title',function(){ return ''; });
 
 
 //Adding and Encuing styles and scripts for Magnific Popup
-add_action('wp_enqueue_scripts', 'enqueue_magnific_popup_styles');
+//add_action('wp_enqueue_scripts', 'enqueue_magnific_popup_styles');
 function enqueue_magnific_popup_styles() {
 wp_register_style( 'magnific_popup_style', get_stylesheet_directory_uri() . '/magnific-popup/magnific-popup.css' );
 wp_enqueue_style( 'magnific_popup_style' );
 }
  
-add_action('wp_enqueue_scripts', 'enqueue_magnific_popup_scripts');
+//add_action('wp_enqueue_scripts', 'enqueue_magnific_popup_scripts');
 function enqueue_magnific_popup_scripts() {
 wp_register_script( 'magnific_popup_script', get_stylesheet_directory_uri() . '/magnific-popup/jquery.magnific-popup.min.js', array( 'jquery' ),'1.0.0', true );
 wp_enqueue_script( 'magnific_popup_script' );
