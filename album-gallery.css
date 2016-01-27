@@ -1,0 +1,15 @@
+/*Style the Album Gallery*/
+
+#gallery-1 {
+    background-color: #fff;
+}
+
+#gallery-1 img {
+    border: 1px solid #000000;
+}
+#gallery-1 .gallery-item {
+    margin-top: 0;
+}
+#gallery-1 dl {
+    margin-bottom: 0;
+}
