@@ -141,411 +141,26 @@ h2 {
     line-height: 22px;
 }
 
-/* ICONS
-  -------------------------------------------------- */
 
-@font-face {
-  font-family: 'genericons';
-  src: url('fonts/fonts/genericons-regular-webfont.eot');
-  src: url('fonts/fonts/genericons-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/fonts/genericons-regular-webfont.woff') format('woff'), url('fonts/fonts/genericons-regular-webfont.ttf') format('truetype'), url('fonts/fonts/genericons-regular-webfont.svg#genericonsregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'entypo';
-  src: url('fonts/fonts/entypo.eot');
-  src: url('fonts/fonts/entypo.eot?#iefix') format('embedded-opentype'), url('fonts/fonts/entypo.woff') format('woff'), url('fonts/fonts/entypo.ttf') format('truetype'), url('fonts/fonts/entypo.svg#genericonsregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-[data-icon]:before {
-  font-family: 'genericons';
-  content: attr(data-icon);
-  speak: none;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-}
-.icon-bubble:before {
-  font-family: 'genericons';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-}
-.icon-bubble:before {
-  content: "\f300";
-}
-/*SOCIAL ICONS*/
-
-.social-block a:before {
-  font-family: 'genericons';
-  speak: none;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-}
-.icon-google:before {
-  content: "\f206";
-}
-.icon-facebook:before {
-  content: "\f204";
-}
-.icon-twitter:before {
-  content: "\f202";
-}
-.icon-feed:before {
-  content: "\f413";
-}
-.icon-flux:before {
-  content: "\f413";
-}
-.icon-github:before {
-  content: "\f200";
-}
-.icon-dribbble:before {
-  content: "\f201";
-}
-.icon-pinterest:before {
-  content: "\f209";
-}
-.icon-youtube:before {
-  content: "\f213";
-}
-.icon-linkedin:before {
-  content: "\f208";
-}
-.icon-wordpress:before {
-  content: "\f205";
-}
-.icon-instagram:before {
-  content: "\f215";
-}
 /*ICONS FOR WIDGETS*/
 
 .widget h3:before {
-  font-family: 'genericons';
   color: #C6A82D;
-  speak: none;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  padding-right: 5px;
-  top: 8px;
-  font-size: 1.5em;
-  position: relative;
-  line-height: 0px;
 }
-.widget_social h3:before {
-  font-family: 'entypo';
-  top: 2px;
-  font-size: 2em;
-  content: "\E73C";
-}
-.widget_categories h3:before {
-  font-family: 'entypo';
-  top: 2px;
-  font-size: 2em;
-  content: "\1F4C1";
-}
-/* hack for safari, uses the browser body.class added with a script */
 
-.safari .widget_categories h3:before {
-  font-family: 'genericons';
-  top: 8px;
-  font-size: 1.5em;
-  content: '\f301';
-}
-.widget_archive h3:before {
-  font-family: 'entypo';
-  top: 2px;
-  font-size: 2em;
-  content: "\E800";
-}
-.widget_tag_cloud h3:before {
-  content: "\f302";
-}
-.widget_recent_entries h3:before {
-  font-family: 'entypo';
-  top: 2px;
-  font-size: 2em;
-  content: "\1F4E3";
-}
-/* hack for safari, uses the browser body.class added with a script */
-
-.safari .widget_recent_entries h3:before {
-  font-family: 'genericons';
-  top: 8px;
-  font-size: 1.5em;
-  content: '\f403';
-}
-.widget_meta h3:before {
-  content: "\f442";
-}
-/* hack to render white color icons if skin is grey */
-
-.white-icons .widget h3:before {
-  color: white;
-}
-#footer .white-icons .widget li:before {
-  color: white;
-}
-.widget_calendar h3:before {
-  content: "\f307";
-}
-.widget_pages h3:before {
-  font-family: 'entypo';
-  top: 2px;
-  font-size: 2em;
-  content: "\1F56A";
-}
-/* hack for safari, uses the browser body.class added with a script */
-
-.safari .widget_pages h3:before {
-  font-family: 'genericons';
-  top: 8px;
-  font-size: 1.5em;
-  content: '\f436';
-}
-.widget_recent_comments h3:before {
-  content: "\f108";
-}
-.widget_search h3:before {
-  content: "\f400";
-}
-.widget_nav_menu h3:before {
-  content: "\f419";
-  top: 4px;
-  font-size: 1em;
-  padding-right: 10px;
-}
-/*-- POST FORMATS AND ARCHIVE ICONS */
-
-.format-icon:before {
-  font-family: 'entypo';
-  speak: none;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  padding-right: 10px;
-  font-size: 1.2em;
-  opacity: 0.2;
-  position: relative;
-  top: 8px;
-}
-.entry-summary.format-icon:before,
-.entry-content.format-icon:before {
-  font-family: 'entypo';
-  speak: none;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 7px;
-  top: -26px;
-  -webkit-font-smoothing: antialiased;
-  padding-right: 13px;
-  font-size: 6.0em;
-  opacity: 0.3;
-  position: relative;
-  display: block;
-  float: left;
-}
-article.page .format-icon:before {
-  content: "\1F4C4";
-  font-size: 3em;
-  line-height: 0px;
-  position: relative;
-  top: 14px;
-}
-/* hack for safari, uses the browser body.class added with a script */
-
-.safari article.page .format-icon:before {
-  font-family: 'genericons';
-  content: "\f425";
-  font-size: 1.8em;
-  line-height: 0px;
-  position: relative;
-  top: 20px;
-}
-article.format-standard .format-icon:before {
-  font-family: 'genericons';
-  content: "\f411";
-  font-size: 1.5em;
-  top: 12px;
-  line-height: 25px;
-}
-article.format-gallery .format-icon:before,
-article.attachment .format-icon:before {
-  content: "\1F304";
-  font-size: 3em;
-  line-height: 0px;
-}
-/* hack for safari, uses the browser body.class added with a script */
-
-.safari article.format-gallery .format-icon:before,
-.safari article.attachment .format-icon:before {
-  font-family: 'genericons';
-  content: '\f102';
-  font-size: 1.8em;
-  line-height: 0px;
-  top: 15px;
-}
-article.format-aside .format-icon:before {
-  content: "\1F504";
-}
-/* hack for safari, uses the browser body.class added with a script */
-
-.safari article.format-aside .format-icon:before {
-  content: '\f308';
-  font-family: 'genericons';
-  font-size: 3.5em;
-  top: -2px;
-}
-article.format-chat .format-icon:before {
-  font-family: 'genericons';
-  content: "\f108";
-}
-article.format-audio .format-icon:before {
-  font-family: 'genericons';
-  content: "\f109";
-  font-size: 1.5em;
-  top: 10px;
-}
-article.format-video .format-icon:before {
-  content: "\1F3AC";
-  font-size: 3em;
-  line-height: 0px;
-  top: 10px;
-}
-/* hack for safari, uses the browser body.class added with a script */
-
-.safari article.format-video .format-icon:before {
-  content: '\f104';
-  font-size: 2em;
-  line-height: 0px;
-  top: 20px;
-  font-family: 'genericons';
-}
-article.format-status .format-icon:before {
-  content: "\26A1";
-}
-article.format-quote .format-icon:before,
-article.error404 .format-icon:before {
-  content: "\275E";
-}
-article.format-image .format-icon:before {
-  content: "\1F304";
-  font-size: 3em;
-  line-height: 0px;
-}
-/* hack for ie */
-
-.ie article.format-image .format-icon:before {
-  font-size: 0.4em;
-}
-/* hack for safari, uses the browser body.class added with a script */
-
-.safari article.format-image .format-icon:before {
-  font-family: 'genericons';
-  content: '\f102';
-  font-size: 1.8em;
-  line-height: 0px;
-  top: 15px;
-}
-article.format-link .format-icon:before {
-  content: "\1F517";
-  top: -12px;
-}
-/* hack for safari, uses the browser body.class added with a script */
-
-.safari article.format-link .format-icon:before {
-  font-family: 'genericons';
-  content: "\f107";
-  top: 7px;
-}
 /*ARCHIVES ICONS*/
 
 .search .search-header .format-icon:before,
 .archive .archive-header .format-icon:before {
   color: #C6A82D;
-  opacity: 1;
-  line-height: 0.2em;
 }
-.search .search-header .format-icon:before {
-  font-family: 'genericons';
-  content: "\f400";
-}
-.archive.date .archive-header .format-icon:before {
-  content: "\E800";
-  top: 3px;
-  font-size: 1.8em;
-}
-.archive.category .archive-header .format-icon:before {
-  top: 2px;
-  font-size: 2em;
-  content: "\1F4C1";
-  display:none;
-}
-.safari .archive.category .archive-header .format-icon:before {
-  font-family: 'genericons';
-  top: 8px;
-  font-size: 1.5em;
-  content: '\f301';
-}
-.archive.tag .archive-header .format-icon:before {
-  font-family: 'genericons';
-  content: "\f302";
-}
-.archive.author .archive-header .format-icon:before {
-  font-family: 'genericons';
-  content: '\f304';
-}
-/*--------OTHER ICONS-----------*/
 
-/*comments*/
-
-h3#reply-title:before {
-  font-family: 'entypo';
-  content: "\2712";
-  speak: none;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  padding-right: 5px;
-  font-size: 2em;
-}
-h2.comments-title:before {
-  font-family: 'genericons';
-  content: "\f108";
-  speak: none;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  padding-right: 5px;
-  font-size: 1em;
-}
 /* HEADER
     -------------------------------------------------- */
 
 .tc-header {
   min-height: 45px;
   background: white;
-  background-image: none;
   border-bottom: 10px solid #e9eaee;
   border-top: 5px solid #C6A82D;
   z-index: 200;
@@ -579,22 +194,7 @@ h2.comments-title:before {
 /* NAVBAR
     -------------------------------------------------- */
 
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
 
-.navbar-wrapper {
-  /*  position: absolute;
- top: 0;
- left: 0; */
-  z-index: 200;
-  position: relative;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
-
-}
-.navbar.resp {
-  display: none;
-}
 .navbar .btn-navbar:hover,
 .navbar .btn-navbar:focus,
 .navbar .btn-navbar:active,
@@ -602,47 +202,12 @@ h2.comments-title:before {
 .navbar .btn-navbar.disabled,
 .navbar .btn-navbar[disabled] {
   background-color: #5e6362;
-  background-position: 0 -30px;
 }
-.navbar.notresp {
-  display: block;
-  min-width: 690px\9;
-  /* IE 8 and below */
-
-}
-.navbar {
-  float: right;
-  margin-bottom: 5px;
-}
-.navbar-inner {
-  min-height: 43px;
-}
-/* Remove border and change up box shadow for more contrast */
-
-.navbar .navbar-inner {
-  z-index: 200;
-  /* position: relative; */
-  margin: 14px 5px 10px;
-  border: 0;
- /* -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);*/
-  padding-left: 5px;
-  /*ie9 and less : hack to get rid of the gradient effect */
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-}
-/* Downsize the brand/project name a bit */
 
 .navbar-wrapper .navbar h2 {
-  float: right;
-  padding-right: 5px;
-  font-style: italic;
-  line-height: 19px;
-  text-align: right;
   color: #C6A82D;
-  /* max-width: 240px; */
-
 }
+
 h2.site-description {
   font-size: 18px;
   padding-top: 0px;
@@ -693,9 +258,7 @@ color:CF6F68;
 .dropdown-submenu:hover > a,
 .dropdown-submenu:focus > a {
   background-color: #f2f2f2;
-  background-image: none;
   color: #C6A82D;
-  text-decoration: none;
 }
 .dropdown-submenu > a:after {
   display: block;
